@@ -40,8 +40,27 @@ mongodb/brew/mongodb-community@3.6                       mongosh
 mongodb/brew/mongodb-community@4.0                       monetdb
 ```
 
-* Lakutan **install MongoDB** sekali lagi dengan sesuai dengan instruksi system, contoh nya seperti ini :
+* Lakukan **install MongoDB** sekali lagi dengan sesuai dengan instruksi system, contoh nya seperti ini :
 `$ brew install mongodb/brew/mongodb-community@4.4`
 
 * Lakukan perintah ini jika mongoDB di mac kalian gagal di install/sebelumnya pernah di install:
 `$ brew reinstall mongodb-community@4.4`
+
+* Kamu akan disuguhkan pesan ini untuk memberikan system akses sebagai `bash` untuk MongDB mengakses system kamu
+```
+If you need to have mongodb-community@4.4 first in your PATH, run:
+  echo 'export PATH="/usr/local/opt/mongodb-community@4.4/bin:$PATH"' >> /Users/budisetyawan/.bash_profile
+```
+
+* Lakukan start service MongDB kamu dengan perintah di ini: `brew services start mongodb/brew/mongodb-community@4.4`
+```
+To have launchd start mongodb/brew/mongodb-community@4.4 now and restart at login:
+  `brew services start mongodb/brew/mongodb-community@4.4`
+```
+
+* Jika kamu `tidak ingin` service mongoDB berjalan secara otomatis setiap kali MacBook kamu nyalakan, maka lakukan perintah ini:
+`mongod --config /usr/local/etc/mongod.conf`
+```
+Or, if you don't want/need a background service you can just run:
+  mongod --config /usr/local/etc/mongod.conf
+```
