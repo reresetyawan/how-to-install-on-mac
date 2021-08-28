@@ -31,8 +31,8 @@ System akan menyarankan aplikasi yang bisa kalian instal di Mac kalian, dengan m
 ```
 These similarly named formulae were found:
 mongodb/brew/libmongocrypt                               mongodb/brew/mongodb-community@4.2
-mongodb/brew/mongocli                                    **mongodb/brew/mongodb-community@4.4 ✔**
-mongodb/brew/mongodb-community                           **mongodb/brew/mongodb-database-tools ✔**
+mongodb/brew/mongocli                                    mongodb/brew/mongodb-community@4.4 ✔
+mongodb/brew/mongodb-community                           mongodb/brew/mongodb-database-tools ✔
 mongodb/brew/mongodb-community-shell                     mongodb/brew/mongodb-mongocryptd
 mongodb/brew/mongodb-community@3.2                       mongodb/brew/mongodb-mongocryptd@4.2
 mongodb/brew/mongodb-community@3.4                       mongodb/brew/mongodb-mongocryptd@4.4
