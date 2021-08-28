@@ -5,4 +5,4 @@ Tidak hanya itu, aku berharap lagi kalian juga bisa bantu kontribusi buat sharin
 
 
 ## Install Database
-[MongoDB di Mac Sierra](https://github.com/reresetyawan/how-to-install-on-mac/blob/main/install-mongodb-on-sierra-using-homebrew.md)
+[MongoDB di Mac Sierra](https://github.com/reresetyawan/how-to-install-on-mac/blob/main/MacOS%20Sierra/Database/install-mongodb-on-sierra-using-homebrew.md)
